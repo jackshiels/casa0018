@@ -1,0 +1,7 @@
+#ifndef TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_MODEL_H_
+#define TENSORFLOW_LITE_MICRO_EXAMPLES_HELLO_WORLD_MODEL_H_
+
+extern const unsigned char models_model_tflite[];
+extern unsigned int models_model_tflite_len;
+
+#endif
