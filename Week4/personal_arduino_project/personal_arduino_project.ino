@@ -18,7 +18,7 @@ TfLiteTensor* output = nullptr;
 const int kTensorArenaSize = (2 * 1024);
 uint8_t tensor_arena[kTensorArenaSize];
 const float kXrange = 2.f * 3.14159265359f;
-const int kInferencesPerCycle = 8000;
+const int kInferencesPerCycle = 48000;
 
 // Track current inferences
 int inference_count = 0;
